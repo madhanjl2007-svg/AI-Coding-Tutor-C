@@ -1,0 +1,30 @@
+bug1_assignment_instead_of_comparison.c: In function 'main':
+bug1_assignment_instead_of_comparison.c:6:9: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+    6 |     if (x = 5) {
+      |         ^
+bug2_missing_ampersand_scanf.c: In function 'main':
+bug2_missing_ampersand_scanf.c:7:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+    7 |     scanf("%d", age);
+      |            ~^   ~~~
+      |             |   |
+      |             |   int
+      |             int *
+bug2_missing_ampersand_scanf.c:7:5: warning: 'age' is used uninitialized [-Wuninitialized]
+    7 |     scanf("%d", age);
+      |     ^~~~~~~~~~~~~~~~
+bug2_missing_ampersand_scanf.c:4:9: note: 'age' was declared here
+    4 |     int age;
+      |         ^~~
+bug11_wrong_format_specifier.c: In function 'main':
+bug11_wrong_format_specifier.c:6:20: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+    6 |     printf("Age = %f", age);
+      |                   ~^   ~~~
+      |                    |   |
+      |                    |   int
+      |                    double
+      |                   %d
+bug15_wrong_array_size.c: In function 'main':
+bug15_wrong_array_size.c:4:29: warning: excess elements in array initializer
+    4 |     int a[3] = {10, 20, 30, 40};
+      |                             ^~
+bug15_wrong_array_size.c:4:29: note: (near initialization for 'a')

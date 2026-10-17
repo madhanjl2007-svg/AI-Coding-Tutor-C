@@ -1,0 +1,12 @@
+TASK 2 – COMMON C PROGRAMMING MISTAKES
+
+1. Using = instead of ==
+2. Forgetting & in scanf()
+3. Array index out of bounds
+4. Using uninitialized variables
+5. Extra semicolon after if or loop
+6. Incorrect pointer usage
+7. Comparing strings using ==
+8. Missing null terminator \0
+9. Forgetting break in switch
+10. Memory leaks

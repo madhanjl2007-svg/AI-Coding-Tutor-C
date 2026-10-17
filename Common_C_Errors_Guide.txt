@@ -1,0 +1,29 @@
+COMMON C PROGRAMMING ERRORS – BEGINNER GUIDE
+
+Introduction
+
+1. Assignment (=) Instead of Comparison (==)
+
+2. Missing & in scanf()
+
+3. Array Index Out of Bounds
+
+4. Uninitialized Variables
+
+5. Extra Semicolon After if or Loop
+
+6. Incorrect Pointer Usage
+
+7. Comparing Strings Using ==
+
+8. Missing Null Terminator (\0)
+
+9. Missing break in switch
+
+10. Memory Leaks
+
+How AI Can Help in Debugging
+
+Safe AI Debugging Method
+
+Conclusion

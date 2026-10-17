@@ -1,0 +1,56 @@
+C DEBUGGING CHECKLIST
+
+1. Check syntax errors
+   - Check missing ;, { }, and ( ).
+
+2. Check variable initialization
+   - Make sure variables have a value before using them.
+
+3. Check scanf()
+   - Use & for normal variables.
+   - Example: scanf("%d", &age);
+
+4. Check conditions
+   - Use == for comparison.
+   - Use = for assignment.
+
+5. Check arrays
+   - Make sure the index is within the valid range.
+   - Remember: indexing starts from 0.
+
+6. Check loops
+   - Make sure the loop variable changes.
+   - Make sure the loop can eventually stop.
+
+7. Check pointers
+   - Make sure pointers are initialized before dereferencing.
+
+8. Check strings
+   - Use strcmp() to compare strings.
+   - Make sure strings have a null terminator '\0'.
+
+9. Check switch statements
+   - Add break when required.
+
+10. Check memory
+    - Free dynamically allocated memory using free().
+
+11. Check format specifiers
+    - %d for int
+    - %f for float
+    - %c for char
+    - %s for string
+
+12. Compile with warnings
+    - Use GCC warnings such as -Wall and -Wextra.
+
+13. Test the program
+    - Use normal, boundary, and invalid inputs.
+
+14. Read the compiler error carefully
+    - Check the file name and line number.
+
+15. Verify the AI suggestion
+    - Understand the reason.
+    - Apply the fix manually.
+    - Compile and test again.
