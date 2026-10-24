@@ -1,0 +1,117 @@
+AI Coding Tutor – Tutor Rating Log
+
+Project: AI Coding Tutor for C Programming
+
+Rating Scale:
+5/5 – Correct and useful
+4/5 – Mostly correct
+3/5 – Partially correct
+2/5 – Needs improvement
+1/5 – Incorrect
+
+Evaluation Method:
+
+Each buggy C program was tested using the following approach:
+
+1. AI Hint
+2. AI Explanation
+3. AI Suggested Fix
+4. Manual Fix
+5. GCC Verification
+
+Tutor Rating Results:
+
+Bug 1 – Assignment (=) instead of Comparison (==)
+Hint: 5/5
+Explanation: 5/5
+Fix: 5/5
+
+Bug 2 – Missing & in scanf()
+Hint: 5/5
+Explanation: 5/5
+Fix: 5/5
+
+Bug 3 – Array Index Out of Bounds
+Hint: 5/5
+Explanation: 5/5
+Fix: 5/5
+
+Bug 4 – Uninitialized Variable
+Hint: 5/5
+Explanation: 5/5
+Fix: 5/5
+
+Bug 5 – Extra Semicolon After if
+Hint: 5/5
+Explanation: 5/5
+Fix: 5/5
+
+Bug 6 – Incorrect Pointer Usage
+Hint: 5/5
+Explanation: 5/5
+Fix: 5/5
+
+Bug 7 – String Comparison
+Hint: 5/5
+Explanation: 5/5
+Fix: 5/5
+
+Bug 8 – Missing Null Terminator
+Hint: 5/5
+Explanation: 5/5
+Fix: 5/5
+
+Bug 9 – Missing break in switch
+Hint: 5/5
+Explanation: 5/5
+Fix: 5/5
+
+Bug 10 – Memory Leak
+Hint: 5/5
+Explanation: 5/5
+Fix: 5/5
+
+Bug 11 – Wrong printf Format Specifier
+Hint: 5/5
+Explanation: 5/5
+Fix: 5/5
+
+Bug 12 – Missing return Statement
+Hint: 5/5
+Explanation: 5/5
+Fix: 5/5
+
+Bug 13 – Infinite Loop
+Hint: 5/5
+Explanation: 5/5
+Fix: 5/5
+
+Bug 14 – Division by Zero
+Hint: 5/5
+Explanation: 5/5
+Fix: 5/5
+
+Bug 15 – Wrong Array Size
+Hint: 5/5
+Explanation: 5/5
+Fix: 5/5
+
+Overall Result:
+
+Programs Tested: 15/15
+
+AI Hint Evaluation: 15/15 correct
+
+AI Explanation Evaluation: 15/15 correct
+
+AI Fix Evaluation: 15/15 correct
+
+Overall Tutor Rating: 5/5
+
+Verification:
+
+The AI suggestions were manually applied and tested. The corrected programs produced the expected results during testing. GCC was also used to compile and verify the programs.
+
+Conclusion:
+
+The AI Coding Tutor provided useful hints, explanations, and corrections for the 15 tested C programming mistakes. However, AI suggestions should still be understood and verified by the student instead of being blindly trusted.
