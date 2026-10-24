@@ -1,0 +1,119 @@
+C PROGRAMMING QUIZ AND ANSWER KEY
+
+Project: AI Coding Tutor for C Programming
+Capstone Project 42
+
+QUIZ
+
+1. Find the output of the following program:
+
+int a = 10, b = 20;
+printf("%d", a + b);
+
+Answer: 30
+
+2. Identify whether the following condition is correct:
+
+if (num > 5)
+printf("Greater");
+
+Answer: Correct
+
+3. Find the mistake in the following statement:
+
+float marks = 85.5;
+printf("%d", marks);
+
+Answer: Wrong format specifier. Use %f for float.
+
+4. Find the mistake in the following code:
+
+if (x > 10) {
+printf("Greater");
+else {
+printf("Smaller");
+}
+
+Answer: Missing closing brace } before else.
+
+5. Find the mistake in the following loop:
+
+for (int i = 1; i <= 5; i--) {
+printf("%d", i);
+}
+
+Answer: i-- is incorrect. It should be i++.
+
+6. Find the mistake in the following statement:
+
+char name[20];
+scanf("%s", &name);
+
+Answer: The & is unnecessary for a character array. Use scanf("%s", name).
+
+7. Check whether the following code correctly handles division:
+
+if (b != 0)
+result = a / b;
+
+Answer: Correct. It checks that b is not zero before division.
+
+8. Find the mistake in the following array access:
+
+int a[4] = {10, 20, 30, 40};
+printf("%d", a[4]);
+
+Answer: Array index 4 is out of bounds. Valid indexes are 0 to 3.
+
+9. Find the missing part in the following statement:
+
+int x = 10
+printf("%d", x);
+
+Answer: Missing semicolon after 10.
+
+10. Identify the error:
+
+int *p = NULL;
+printf("%d", *p);
+
+Answer: NULL pointer is dereferenced, which can cause a runtime error.
+
+11. Check whether the following switch statement is correct:
+
+switch(choice) {
+case 1:
+printf("One");
+break;
+case 2:
+printf("Two");
+break;
+}
+
+Answer: Correct. The break statements are properly used.
+
+12. Check whether the following if-else structure is valid:
+
+if (mark >= 90)
+printf("A");
+else if (mark >= 50)
+printf("B");
+else
+printf("Fail");
+
+Answer: Correct. It is a valid if-else-if-else structure.
+
+ANSWER KEY
+
+1. 30
+2. Correct
+3. Use %f
+4. Missing }
+5. Use i++
+6. Remove &
+7. Correct
+8. Index 4 is out of bounds
+9. Missing ;
+10. NULL pointer dereference
+11. Correct
+12. Correct
