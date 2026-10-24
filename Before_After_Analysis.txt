@@ -1,0 +1,43 @@
+Task 1 – Assignment (=) Instead of Comparison (==)
+
+Before AI guidance, the program used `=` instead of `==` in the `if` condition. Because of this, the program gave the wrong result.
+
+AI Guidance: AI identified the mistake and explained that `=` is used for assignment, while `==` is used for comparison. It suggested changing `=` to `==`.
+
+After: I manually changed the code and tested it. The program then produced the expected output. This helped me understand the difference between assignment and comparison operators.
+
+Task 2 – Missing & in scanf()
+
+Before AI guidance, I got an error when running the program. The mistake was in the `scanf()` statement because I forgot to use `&` before the variable.
+
+AI explained the mistake and suggested adding `&` to the variable.
+
+After manually fixing and testing the program, it produced the correct output.
+
+Task 3 – Array Index Out of Bounds
+
+Before AI guidance, I got an error in the program because I used the wrong index `a[3]` when the array size was 3.
+
+Array indexing starts from 0, so the valid indexes are only 0, 1, and 2.
+
+AI explained the mistake and suggested changing the index number or increasing the array size when needed.
+
+After manually fixing and testing the program, I got the correct output.
+
+Task 4 – Uninitialized Variable
+
+Before AI guidance, I got an unexpected result because I declared the variable `x` but did not initialize it before using it.
+
+AI explained that the variable should be initialized before it is used.
+
+I initialized the variable with a value and manually fixed the code. After testing the corrected program, I got the expected output.
+
+Task 5 – Extra Semicolon After if
+
+Before AI guidance, I got an unexpected result from the `if` statement.
+
+The mistake was that I placed an extra semicolon after the `if` condition, which made the `if` statement empty.
+
+AI explained the mistake and suggested removing the semicolon.
+
+After manually removing the semicolon and testing the program, I got the expected output.
