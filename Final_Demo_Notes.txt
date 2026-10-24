@@ -1,0 +1,59 @@
+Task 1 – Project Introduction
+
+My project is AI Coding Tutor for C Programming.
+
+It is designed for students and beginners who are learning C programming.
+
+It helps students find errors, understand concepts, debug programs, and learn how to solve C programming problems.
+
+The basic workflow is:
+
+Buggy Program → AI Hint → Explanation → Manual Fix → GCC Verification
+
+The student gives a buggy program, AI gives a hint, explains the mistake, and suggests a fix. The student then manually fixes the code and verifies it using GCC.
+
+Task 2 – Live Demonstration Workflow
+
+First, I will show a buggy C program and ask the AI to check it.
+
+The AI will give a hint about the mistake instead of directly giving the answer.
+
+I will understand the hint and manually fix the code.
+
+Finally, I will compile and run the corrected program using the GCC compiler to verify that it produces the expected output.
+
+Task 3 – Expected Questions and Answers
+
+Why did you choose C programming?
+
+C programming helps beginners understand basic programming concepts, logic, debugging, and algorithms.
+
+Why did you choose AI instead of direct search?
+
+AI can provide hints and explanations interactively based on the student's problem.
+
+Why do you use a hint-first approach?
+
+The hint-first approach makes students think about the problem instead of simply copying the answer.
+
+Why do you manually fix the code?
+
+Manually fixing the code helps students understand their mistakes and improve their problem-solving skills.
+
+Why did you use GCC?
+
+GCC is used to compile, run, and verify the corrected C programs.
+
+Task 4 – Final Demo Steps
+
+1. Introduce the project.
+2. Show one buggy C program.
+3. Run the buggy program and show the wrong output or error.
+4. Ask ChatGPT for a hint.
+5. Show and explain the AI hint.
+6. Identify the mistake.
+7. Manually fix the code.
+8. Compile the corrected program using GCC.
+9. Run the corrected program.
+10. Show the expected output.
+11. Explain how AI guidance, manual coding, and GCC verification help students learn.
