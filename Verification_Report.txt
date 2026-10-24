@@ -1,0 +1,19 @@
+Task 1 – AI Response Verification
+
+We checked the AI responses to see how, what, and where the mistakes were identified. The AI correctly identified the mistakes in our tests, and the suggested fixes worked when we manually tested them. However, AI may not always provide correct answers, so its suggestions should be understood, verified, and tested before being trusted.
+
+Task 2 – GCC Verification
+
+I compiled the buggy programs using GCC. It helped to identify some mistakes and warnings. GCC detected some compile-time problems and warnings, but it did not detect every mistake. Some mistakes had to be found by running and testing the programs manually.
+
+Task 3 – Manual Testing of AI Fixes
+
+We manually applied the AI-suggested fixes. The corrected programs produced the expected output. By manually testing the programs, I gained knowledge, learned how to face challenges, and improved my problem-solving skills for the future.
+
+Task 4 – AI Limitations and Safe Use
+
+In my project, I created 15 buggy C programs and asked AI to identify and fix the errors. The AI gave correct answers in our tests, but AI may not always be correct. Students should use AI to gain knowledge about programming, debugging, and concepts instead of blindly trusting it. If students blindly trust AI, they may not develop their own thinking and problem-solving skills. Students can use AI safely by asking it to explain concepts, provide syntax, and give practice programs as homework.
+
+Task 5 – Overall Verification Conclusion
+
+In this project, I verified whether the AI provided correct hints, learning concepts, explanations, and corrected code. I tested 15 buggy C programs and manually checked the AI-suggested fixes. The fixes worked correctly when tested and verified using GCC. My final conclusion is that AI can be used as a learning tool for beginners to learn C programming, understand errors, and improve their problem-solving skills.
