@@ -1,0 +1,21 @@
+AI Prompt Library
+
+Prompt 1 – Identify the Mistake
+
+I am a beginner learning C programming. Check this C program and help me identify the mistake. Give me a hint first instead of directly giving the complete answer. Explain only what I should look at.
+
+Prompt 2 – Give Another Hint
+
+I understood the first hint, but I am still not able to find the mistake. Give me another hint and explain the related C programming concept without directly giving the complete answer.
+
+Prompt 3 – Explain and Fix
+
+I understand the mistake now. Explain why the mistake occurs and what I should change. If I am still unable to fix it, provide the corrected code and explain what was changed.
+
+Prompt 4 – Explain a C Concept
+
+Explain this C programming concept in simple language. Give the concept, basic syntax, and one simple example so that a beginner can understand it.
+
+Prompt 5 – Compile and Verify
+
+Check the corrected C program. Compile it using GCC and verify whether the program produces the expected output. If there is still an error, identify it and tell me what needs to be changed.
