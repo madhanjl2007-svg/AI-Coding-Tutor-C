@@ -1,0 +1,352 @@
+RESEARCH REPORT
+
+Project Title:
+AI Coding Tutor for C Programming
+
+Capstone Project 42
+
+Student:
+MADHAN. JL
+
+Course:
+B.E. Computer Science and Engineering
+
+College:
+Dhanalakshmi College of Engineering
+
+1. INTRODUCTION
+
+C programming is an important programming language for beginners and Computer Science students. Beginners may face different types of errors while writing C programs, such as syntax errors, runtime errors, logical errors, array errors, pointer errors, and memory-related errors.
+
+This project studies how Artificial Intelligence can be used as a learning assistant for beginners learning C programming. Instead of directly giving the complete answer, the AI is used to provide hints, explain the mistake, and guide the learner toward the solution.
+
+The corrected program is then manually verified using the GCC compiler.
+
+2. PROBLEM STATEMENT
+
+Beginners often make mistakes while writing C programs.
+
+Some common problems are:
+
+* Difficulty in identifying programming errors.
+* Difficulty in understanding compiler warnings.
+* Difficulty in understanding runtime errors.
+* Incorrect use of arrays, pointers, strings, and loops.
+* Students may copy AI-generated answers without understanding them.
+* Students may depend completely on AI instead of developing problem-solving skills.
+
+Therefore, this project focuses on using AI as a learning assistant rather than simply providing answers.
+
+3. PROJECT OBJECTIVE
+
+The main objectives of this project are:
+
+* To study how AI can help beginners learn C programming.
+* To identify common C programming mistakes.
+* To use AI to provide hints and explanations.
+* To encourage students to identify and fix mistakes manually.
+* To verify corrected programs using GCC.
+* To evaluate the usefulness of AI responses.
+* To understand the limitations of AI in programming education.
+* To improve debugging and problem-solving skills.
+
+4. RESEARCH QUESTIONS
+
+The project focuses on the following questions:
+
+1. Can AI correctly identify common C programming mistakes?
+
+2. Can AI explain programming mistakes in a simple way for beginners?
+
+3. Can AI provide useful hints without immediately giving the complete answer?
+
+4. Can students manually apply AI suggestions and correct their programs?
+
+5. Can GCC be used to verify whether the AI-suggested corrections work?
+
+6. Should students blindly trust AI-generated programming answers?
+
+7. RESEARCH METHOD
+
+The project followed a practical testing approach.
+
+The main steps were:
+
+1. Identify common C programming mistakes.
+
+2. Create buggy C programs containing these mistakes.
+
+3. Run and test the buggy programs.
+
+4. Ask AI to identify the mistake.
+
+5. Ask AI for a hint first.
+
+6. Understand the AI explanation.
+
+7. Manually correct the program.
+
+8. Compile the corrected program using GCC.
+
+9. Run the corrected program.
+
+10. Compare the actual output with the expected output.
+
+11. Record the AI response and rating.
+
+12. Analyse the results.
+
+13. COMMON C PROGRAMMING MISTAKES STUDIED
+
+The project tested 15 buggy C programs.
+
+The mistakes included:
+
+1. Assignment (=) instead of comparison (==)
+
+2. Missing & in scanf()
+
+3. Array index out of bounds
+
+4. Uninitialized variable
+
+5. Extra semicolon after if
+
+6. Incorrect pointer usage
+
+7. Comparing strings using ==
+
+8. Missing null terminator in a string
+
+9. Missing break in switch
+
+10. Memory leak
+
+11. Wrong printf format specifier
+
+12. Missing return statement
+
+13. Infinite loop
+
+14. Division by zero
+
+15. Wrong array size
+
+16. AI-BASED LEARNING WORKFLOW
+
+The project follows a hint-first learning workflow.
+
+Step 1:
+The student provides a buggy C program.
+
+Step 2:
+The AI checks the program and gives a hint.
+
+Step 3:
+The AI explains the related C programming concept.
+
+Step 4:
+The student identifies the mistake.
+
+Step 5:
+The student manually changes the program.
+
+Step 6:
+The corrected program is compiled using GCC.
+
+Step 7:
+The program is executed and the output is checked.
+
+Step 8:
+The student verifies whether the correction is actually correct.
+
+This workflow encourages the student to think and learn instead of simply copying the AI answer.
+
+8. TOOLS USED
+
+The following tools were used in the project:
+
+* ChatGPT – Used for AI hints, explanations, debugging, and code correction testing.
+* GCC Compiler – Used to compile and verify C programs.
+* NotebookLM – Used for project-related C programming research using uploaded sources.
+* GitHub – Used to store and manage project files and documentation.
+
+9. GCC VERIFICATION
+
+GCC was used to compile and test the C programs.
+
+Compiler options such as:
+
+-Wall
+
+and
+
+-Wextra
+
+were used during testing to identify compiler warnings.
+
+GCC detected some problems, warnings, and compile-time issues. However, not every programming mistake was detected by the compiler.
+
+Some mistakes required the program to be executed and tested manually.
+
+Therefore, both AI guidance and compiler verification were used during the project.
+
+10. AI RESPONSE EVALUATION
+
+The AI was evaluated using three main stages:
+
+1. AI Hint
+2. AI Explanation
+3. AI Suggested Fix
+
+The student then manually applied the suggested fix and verified it using GCC.
+
+Results:
+
+* Programs tested: 15/15
+* AI hints evaluated: 15/15
+* AI explanations evaluated: 15/15
+* AI fixes evaluated: 15/15
+* Overall tutor rating: 5/5
+
+11. MANUAL VERIFICATION
+
+The AI suggestions were not blindly accepted.
+
+The student manually checked the AI suggestions by:
+
+* Understanding the explanation.
+* Editing the C program manually.
+* Compiling the corrected program using GCC.
+* Running the program.
+* Checking the actual output.
+* Comparing the output with the expected result.
+
+All 15 AI-suggested corrections worked correctly during the project testing.
+
+12. ROLE OF AI IN THE PROJECT
+
+AI was used as a learning assistant.
+
+AI helped with:
+
+* Identifying programming mistakes.
+* Giving hints.
+* Explaining C programming concepts.
+* Suggesting possible corrections.
+* Explaining why an error occurs.
+* Helping the learner understand compiler/runtime problems.
+
+The project did not treat AI as a replacement for the student's own thinking.
+
+The student was encouraged to understand the mistake and manually fix the program.
+
+13. LIMITATIONS OF AI
+
+AI can be useful, but it has limitations.
+
+AI-generated answers may sometimes be:
+
+* Incorrect.
+* Incomplete.
+* Misleading.
+* Too complicated for beginners.
+* Different from the expected solution.
+
+Therefore, students should not blindly trust AI-generated code.
+
+AI suggestions should be understood, tested, and verified using a compiler or other reliable methods.
+
+14. SAFE USE OF AI FOR LEARNING
+
+Students can use AI safely by asking it to:
+
+* Explain C programming concepts.
+* Give hints instead of direct answers.
+* Explain compiler errors.
+* Explain why a program is wrong.
+* Provide syntax examples.
+* Give practice programs.
+* Suggest debugging approaches.
+
+Students should try to solve the problem themselves before asking for the complete solution.
+
+15. RESULTS
+
+The project successfully tested 15 buggy C programs.
+
+The AI correctly identified and explained the tested mistakes.
+
+The AI suggestions were manually applied and verified using GCC.
+
+The corrected programs produced the expected results during testing.
+
+The evaluation showed:
+
+AI Hint:
+15/15 correct
+
+AI Explanation:
+15/15 correct
+
+AI Suggested Fix:
+15/15 correct
+
+Overall Tutor Rating:
+5/5
+
+16. LEARNING OUTCOME
+
+Through this project, the student learned:
+
+* Common C programming mistakes.
+* How to read compiler warnings.
+* Basic debugging techniques.
+* How to use GCC for verification.
+* How AI can assist programming learning.
+* Why AI answers should be verified.
+* How manual debugging improves problem-solving skills.
+* How to use AI responsibly for education.
+
+17. CONCLUSION
+
+The project shows that AI can be useful as a learning assistant for beginners learning C programming.
+
+The hint-first approach encourages students to think about the problem before receiving the complete solution.
+
+Manual correction helps students understand their mistakes and improve their problem-solving skills.
+
+GCC provides an additional method to compile and verify the corrected programs.
+
+The project also shows that AI should not be blindly trusted. AI suggestions should be understood, manually checked, compiled, and tested before they are accepted.
+
+Overall, AI can support beginners in learning C programming, debugging errors, and improving their programming knowledge when it is used responsibly.
+
+18. FUTURE IMPROVEMENTS
+
+The project can be improved in the future by adding:
+
+* More C programming bugs and examples.
+* More programming exercises.
+* Different difficulty levels.
+* Automatic error classification.
+* More detailed learning progress tracking.
+* More compiler-based verification.
+* Additional programming languages.
+* A dedicated user interface for the tutor.
+
+These improvements can make the AI Coding Tutor more useful for students.
+
+19. FINAL PROJECT SUMMARY
+
+The AI Coding Tutor for C Programming project studied the use of AI as a learning assistant for beginner programmers.
+
+15 buggy C programs were created and tested.
+
+The AI was evaluated through hints, explanations, and suggested fixes.
+
+The corrections were manually applied and verified using GCC.
+
+All 15 tested AI fixes worked correctly during the project testing.
+
+The final conclusion is that AI can be useful for learning and debugging when students understand and verify the AI-generated suggestions instead of blindly copying them.
